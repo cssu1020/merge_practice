@@ -1,0 +1,65 @@
+div#number1{
+    text-align: center;
+    width: 100px;
+    height: 100px;      
+    border:1px solid white;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:10px 10px 5px #888888;
+    position: absolute;
+    top:50px;
+    left:200px;
+}
+div#number1:hover{
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+img#cow{
+    width:300px;
+    height:200px;
+    position: absolute;
+    top:500px;
+    left:150px;
+}
+img#bird{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:250px;
+    animation-name: bird;
+    animation-duration:5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes bird {
+    from{left:0px; top:250px;}
+    to{left:1100px; top:250px;}
+    
+}
+
+img#tower{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 820px;
+    top: 170px;
+}
+img#rail{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top:600px;
+    left: 0px;
+}
+img#windmill{
+    position: absolute;
+    left: 868px;
+    top: 70px;
+    transform: rotate(360deg);
+}
+body{
+    background-image:url('images/grass_blue_sky_background.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
