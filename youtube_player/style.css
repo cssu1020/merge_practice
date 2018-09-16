@@ -1,6 +1,10 @@
 body{
     text-align: center;
+    background-image:url("images/music.jpg");
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
 }
+
 
 h3{
     height: 32px;

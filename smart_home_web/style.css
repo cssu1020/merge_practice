@@ -45,3 +45,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }*/
+body{
+    text-align: center;
+    background-image:url("images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
+}

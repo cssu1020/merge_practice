@@ -1,6 +1,10 @@
 body{
     text-align: center;
+    background-image:url("images/75228627-cartoon-game-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
 }
+
 
 canvas{
     border: 2px solid black;
@@ -9,7 +13,7 @@ canvas{
 
 #talkBox{
     height: 20px;
-    color: brown;
+    color: lightskyblue;
     font-size: 26px;
     font-weight: bold;
 }
